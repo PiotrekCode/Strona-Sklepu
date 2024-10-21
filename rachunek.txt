@@ -1,0 +1,6 @@
+Numer zamówienia: #123456
+Data zamówienia: 22 października 2024
+Łączna kwota: 4000 PLN
+
+Podsumowanie zamówienia:
+Komputer Stacjonarny 1 - 4000 PLN

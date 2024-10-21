@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Komputerów</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    .bg-purple {
+        background-color: #4a08a1;
+    }
+
+    .btn-purple {
+        background-color: #4a08a1;
+    }
+
+</style>
+
+<body>
+    <!-- Kontener główny -->
+    <div class="container my-4 p-4 border bg-light">
+        <!-- Nagłówek strony -->
+        <h1 class="text-center">Galeria Komputerów</h1>
+        <h2 class="text-center">Wybierz swój nowy komputer</h2>
+
+        <!-- Galeria komputerów -->
+        <div class="row">
+            <div class="col-md-4 col-sm-6 p-2">
+                <div class="p-3 border bg-white text-center">
+                    <h5>Laptop 1</h5>
+                    <img src="laptop1.webp" class="img-fluid" alt="Laptop 1">
+                    <p class="mt-2">Cena: 3000 PLN</p>
+                    <a href="kup.html" class="btn btn-purple text-white">Kup</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 p-2">
+                <div class="p-3 border bg-white text-center">
+                    <h5>Laptop 2</h5>
+                    <img src="laptop2.jpg" width="250" height="250" class="img-fluid" alt="Laptop 2">
+                    <p class="mt-2">Cena: 3500 PLN</p>
+                    <a href="kup.html" class="btn btn-purple text-white">Kup</a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 p-2">
+                <div class="p-3 border bg-white text-center">
+                    <h5>Komputer Stacjonarny 1</h5>
+                    <img src="stacjonarny1.jpg" width="250" height="250" class="img-fluid" alt="Komputer Stacjonarny 1">
+                    <p class="mt-2">Cena: 4000 PLN</p>
+                    <a href="kup.html" class="btn btn-purple text-white">Kup</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Paginacja -->
+     <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="index.html">Poprzednia</a></li>
+            <li class="page-item"><a class="page-link" href="htm1.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="htm2.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="htm2.html">Następna</a></li>
+        </ul>
+    </nav>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
